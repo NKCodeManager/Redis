@@ -20,8 +20,6 @@ import java.util.concurrent.TimeUnit;
  * @Email: nikang@cu-sc.com
  * @Version: v1.0.0
  * @Date: 2020/8/10 11:03
- * @Copyright: 2020 www.cu-sc.com All rights reserved. <br/>
- * 注意：本内容仅限于联通集团内部传阅，禁止外泄以及用于其他的商业目的<br/>
  */
 
 @Component
@@ -50,6 +48,5 @@ public class RedisLocker implements DistributedLocker{
             }
         }
         throw new UnableToAquireLockException();
-    }
     }
 }
